@@ -1,0 +1,1 @@
+Easy Javascript projects to code while learning
