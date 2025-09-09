@@ -3,26 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
     <link rel="stylesheet" href="style.css" />
-    <title>To do App</title>
   </head>
   <body>
-    <div class="container">
-      <h1>My Habit Tracker</h1>
-
-      <div class="add-habit">
-        <input type="text" id="newHabit" />
-        <button onclick="getValue()">Add</button>
-      </div>
-      <section class="habits">
-        <div class="habit">
-          <button id="delete">Delete</button>
-          <p id="habit">A test habit</p>
-          <button id="done">done</button>
-        </div>
-      </section>
-      <footer>This is the footer</footer>
-    </div>
-    <script type="text/javascript" src="script.js"></script>
+    <h1>To Do App</h1>
+    <input id="input" type="text" placeholder="Enter a task" />
+    <button id="btn" onclick="addItem()">Enter</button>
+    <div id="items"></div>
+    <script src="script.js"></script>
   </body>
 </html>
