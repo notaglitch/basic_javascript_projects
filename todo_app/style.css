@@ -4,60 +4,14 @@ html {
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-h1 {
-  align-content: center;
-  flex: 0.3;
-  font-size: 6vh;
-}
-.add-habit {
-  width: 60%;
-  height: 50px;
-  align-content: center;
-  input {
-    width: 80%;
-    height: 37px;
-    border-radius: 6px;
-  }
-  button {
-    width: 70px;
+#items {
+  margin-top: 20px;
+  div {
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-between;
     height: 40px;
-    border-radius: 6px;
+    border-bottom: 1px solid black;
   }
-}
-.habits {
-  height: 40%;
-  width: 60%;
-}
-
-.habit {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  p {
-    width: 64%;
-    height: 40px;
-    align-content: center;
-    text-align: center;
-  }
-  button {
-    width: 70px;
-    height: 40px;
-    border-radius: 6px;
-  }
-  #done {
-    margin-right: 5px;
-  }
-}
-footer {
-  display: block;
-  position: fixed;
-  bottom: 0;
-  padding-bottom: 5px;
 }
